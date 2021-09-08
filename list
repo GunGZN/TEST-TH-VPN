@@ -32,17 +32,17 @@ grep -v "^PasswordAuthentication" /etc/ssh/sshd_config >/tmp/passlogin && mv /tm
 echo "PasswordAuthentication yes" >>/etc/ssh/sshd_config
 service ssh restart
 
-wget https://raw.githubusercontent.com/GunGZN/TEST-TH-VPN/main/addhost.sh -O /bin/addhost > /dev/null 2>&1
+wget https://raw.githubusercontent.com/GunGZN/menu-SxVPN/main/addhost.sh -O /bin/addhost > /dev/null 2>&1
 chmod +x /bin/addhost
-wget https://raw.githubusercontent.com/GunGZN/TEST-TH-VPN/main/ajuda.sh -O /bin/ajuda > /dev/null 2>&1
+wget https://raw.githubusercontent.com/GunGZN/menu-SxVPN/main/ajuda.sh -O /bin/ajuda > /dev/null 2>&1
 chmod +x /bin/ajuda
-wget https://raw.githubusercontent.com/GunGZN/TEST-TH-VPN/main/alterarlimite.sh -O /bin/alterarlimite > /dev/null 2>&1
+wget https://raw.githubusercontent.com/GunGZN/menu-SxVPN/main/alterarlimite.sh -O /bin/alterarlimite > /dev/null 2>&1
 chmod +x /bin/alterarlimite
-wget https://raw.githubusercontent.com/GunGZN/TEST-TH-VPN/main/alterarsenha.sh -O /bin/alterarsenha > /dev/null 2>&1
+wget https://raw.githubusercontent.com/GunGZN/menu-SxVPN/main/alterarsenha.sh -O /bin/alterarsenha > /dev/null 2>&1
 chmod +x /bin/alterarsenha
-wget https://raw.githubusercontent.com/GunGZN/TEST-TH-VPN/main/attscript.sh -O /bin/attscript > /dev/null 2>&1
+wget https://raw.githubusercontent.com/GunGZN/menu-SxVPN/main/attscript.sh -O /bin/attscript > /dev/null 2>&1
 chmod +x /bin/attscript
-wget https://raw.githubusercontent.com/GunGZN/TEST-TH-VPN/main/badvpn.sh -O /bin/badvpn > /dev/null 2>&1
+wget https://raw.githubusercontent.com/GunGZN/menu-SxVPN/main/badvpn.sh -O /bin/badvpn > /dev/null 2>&1
 chmod +x /bin/badvpn
 wget https://raw.githubusercontent.com/teamvpn/SSHPLUS29/master/Modulos/banner.sh -O /bin/banner > /dev/null 2>&1
 chmod +x /bin/banner
