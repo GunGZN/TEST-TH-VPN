@@ -1185,7 +1185,7 @@ exit 0' >$RCLOCAL
 			fi
 			[[ $(grep -wc 'open.py' /etc/autostart) != '0' ]] && pt_proxy=$(grep -w 'open.py' /etc/autostart| cut -d' ' -f6) || pt_proxy=80
 			cat <<-EOF >/etc/openvpn/client-common.txt
-				# OVPN_ACCESS_SERVER_PROFILE=[SSHPLUS]
+				# OVPN_ACCESS_SERVER_PROFILE=[Lil Gun-X]
 				client
 				dev tun
 				proto $PROTOCOL
