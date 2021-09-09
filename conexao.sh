@@ -1224,7 +1224,7 @@ auth-user-pass
 keepalive 10 120
 float" > /etc/openvpn/client-common.txt
 	# Generates the custom client.ovpn
-	newclient "/SSHPLUS?"
+	newclient "www.opensignal.com"
 	echo ""
 	echo -e "\033[1;32mติดตั้ง OPENVPN สำเร็จ\033[0m"
 fi
