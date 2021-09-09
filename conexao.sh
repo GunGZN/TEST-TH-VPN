@@ -1191,9 +1191,9 @@ exit 0' >$RCLOCAL
 				proto $PROTOCOL
 				sndbuf 0
 				rcvbuf 0
-				remote 127.0.0.1 2222
-				route $IP 255.255.255.255 net_gateway
-				#MODO SLOWDNS, UTILIZE O APP OPENVPN PARA ANDROID, SELECIONE O TERMUX EM APLICAÇÕES PERMITIDAS
+				remote $IP $porta
+				http-proxy $IP 8080
+				http-proxy-option CUSTOM-HEADER Host www.opensignal.com
 				resolv-retry 5
 				nobind
 				persist-key
